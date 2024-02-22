@@ -58,7 +58,7 @@ You may refer to the [demo](https://drive.google.com/file/d/1_iiBsk6CXnIYhRzzQHD
 1. [Mac or Window OS connected but not responding](https://zmk.dev/docs/features/bluetooth#macos-connected-but-not-working), this is working for Bluetooth 5.2 Windows.
 2. Master connected and can type, but not slave refer to [Split Keyboard Halves Unable to Pair](https://zmk.dev/docs/troubleshooting#split-keyboard-halves-unable-to-pair).
 3. You may compile the reset.uf2 yourself or get it from [setting reset.uf2](https://drive.google.com/file/d/1r3C8MBEVbgs5SK3Hc2CyoOIaiAPLB_zp/view?usp=drive_link).
-4. The board is pre-flashed with the [these uf2](https://drive.google.com/drive/folders/1p5twDqSFcLPDTAh1r9uKbbJ-_LQ2O5IX?usp=drive_link). You may always use these to test the board.
+4. The board is pre-flashed with the [mouse-native.uf2](https://drive.google.com/drive/folders/1EStNUWT_zY0m-xmcMmOKRE_ifORbUOOl). You may always use these to test the board.
 5. No key is registering: have you toggled the power button? (if you have one)
 
 </br>
