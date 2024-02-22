@@ -1,5 +1,8 @@
 # Readme
-This is suitable for Corne 42 keys with or without niceview support, **AND WITH MOUSE ENABLED.**
+This is suitable for Corne with the following features:
+- 42 keys
+- with or without niceview support
+- with mousekey enabled
 
 ## First time bluetooth connection
 Please test before flashing to avoid complicating troubleshoot procedure.
