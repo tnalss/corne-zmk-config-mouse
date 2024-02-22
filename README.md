@@ -1,6 +1,13 @@
 # Readme
 This is suitable for Corne 42 keys with or without niceview support, **AND WITH MOUSE ENABLED.**
 
+## First time bluetooth connection
+Please test before flashing to avoid complicating troubleshoot procedure.
+![ble keyboard corne](https://user-images.githubusercontent.com/79617315/230918198-c6b5562f-e7e5-463d-b915-6c299875f332.jpg)
+
+## Key remap
+After you make sure that the board can be connected and every key is registering, you can proceed to remap the keys according to your needs.
+
 ## New user 
 |![1fork](https://github.com/superxc3/zmk-config-crkbd/assets/79617315/c1d1d583-d07d-4178-bc88-3ae4230202e6)|
 |:--:|
