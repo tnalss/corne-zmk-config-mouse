@@ -2,4 +2,4 @@ You are directed from https://github.com/superxc3/zmk-config-crkbd/blob/master/R
 
 Quick link to [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)
 
-Default firmware for this branch [corne_nice_view_adapter nice_view-nice_nano_v2-zmk.uf2](https://drive.google.com/drive/folders/1EStNUWT_zY0m-xmcMmOKRE_ifORbUOOl)
+The firmware is built for corne with normal oled (not niceview). 
