@@ -19,7 +19,9 @@
 #define NAVI 2
 #define ADJUST 3
 
+/*
 &led_strip { chain-length = <27>; };
+*/
 
 / {
     behaviors {
@@ -106,8 +108,8 @@
             //                             '--------+---------+---------'       '--------+--------+---------'
 
             bindings = <
-&trans      &kp F1        &kp F2        &kp F3        &kp F4   &kp F5     &kp C_VOLUME_UP    &bl BL_ON &rgb_ug RGB_ON  &trans  &trans  &sys_reset
-&bt BT_CLR  &kp F6        &kp F7        &kp F8        &kp F9   &kp F10    &kp C_VOLUME_DOWN  &bl RGB_OFF      &rgb_ug RGB_OFF  &trans     &trans  &trans
+&trans      &kp F1        &kp F2        &kp F3        &kp F4   &kp F5     &kp C_VOLUME_UP    &trans     &trans  &trans     &trans  &sys_reset
+&bt BT_CLR  &kp F6        &kp F7        &kp F8        &kp F9   &kp F10    &kp C_VOLUME_DOWN  &trans     &trans  &trans     &trans  &trans
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp F11  &kp F12    &trans             &trans     &trans  &trans     &trans  &trans
                                         &trans        &trans   &trans     &trans             &trans     &trans
             >;
