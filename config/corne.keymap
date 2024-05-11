@@ -11,6 +11,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/backlight.h>
 
 #define QWERTY 0
 #define NUMB 1
@@ -87,7 +88,7 @@
             bindings = <
 &kp LG(LS(N4))  &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN       &kp HOME               &msc SCROLL_UP    &trans          &mmv MOVE_UP    &trans           &trans  &trans
 &trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp END                &msc SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans          &trans  &trans          &kp DELETE      &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp INSERT        &trans          &kp DELETE      &trans           &trans    &out OUT_TOG
+&trans          &trans  &trans          &kp DELETE      &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp INSERT        &trans          &kp DELETE      &trans           &trans  &trans
                                         &kp LGUI        &mo ADJUST          &trans                 &trans            &mkp LCLK       &mkp RCLK 
             >;
         };
@@ -104,7 +105,7 @@
             //                             '--------+---------+---------'       '--------+--------+---------'
 
             bindings = <
-&sys_reset  &kp F1        &kp F2        &kp F3        &kp F4   &kp F5     &kp C_VOLUME_UP    &mkp LCLK  &trans  &mkp RCLK  &trans  &sys_reset
+&sys_reset  &kp F1        &kp F2        &kp F3        &kp F4   &kp F5     &kp C_VOLUME_UP    &rgb_ug RGB_TOG  &bl BL_TOG  &trans  &trans  &sys_reset
 &bt BT_CLR  &kp F6        &kp F7        &kp F8        &kp F9   &kp F10    &kp C_VOLUME_DOWN  &trans     &trans  &trans     &trans  &trans
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp F11  &kp F12    &trans             &trans     &trans  &trans     &trans  &trans
                                         &trans        &trans   &trans     &trans             &trans     &trans
