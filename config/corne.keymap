@@ -81,9 +81,9 @@
             // .----------------------------------------------------------------.       .-----------------------------------------------------------------.
             // |   CMD+SHIFT+4  |       |   PU   |   UP   |    PD    |   HOME   |       |  scrollup  |         |    MUP   |         |          | CMD+SHIFT+4 |
             // |----------------+-------+--------+--------+----------+----------|       |---------+----------+---------+---------+----------+-------------|
-            // |                |       |  LEFT  |  DOWN  |   RIGHT  |   END    |       |  scrolldw  |   MLEFT   |   MDOWN  |  MRIGHT  |          |             |
+            // |                |       |  LEFT  |  DOWN  |   RIGHT  |   END    |       |  scrolldw  | MLEFT   |   MDOWN  |  MRIGHT  |          |             |
             // |----------------+-------+--------+--------+----------+----------|       |---------+----------+---------+---------+----------+-------------|
-            // |     OUT_TOG    |       |        |   INS  | BACKSPACE|  DELETE  |       |         |          |         |         |          |   OUT_TOG   |
+            // |      SHIFT    |       |        |   INS  | BACKSPACE|  DELETE  |       |   뒤로가기  |앞으로 |        |         |          |   OUT_TOG   |
             // '---------------------------------+--------+----------+----------+       |---------+----------+---------+----------------------------------'
             //                                   |  GUI   |   MO3    |          |       |         |   Lclk   |   Rclk  |
             //                                   '--------+----------+----------'       '---------+----------+---------'
@@ -91,7 +91,7 @@
             bindings = <
 &trans         &none  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN       &kp HOME               &msc SCROLL_UP    &none          &mmv MOVE_UP    &none             &none  &none
 &none          &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp END                &msc SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
-&none          &none  &none           &kp INSERT      &kp BSPC            &kp DELETE             &mkp MB4          &mkp MB5        &trans          &trans           &none  &trans
+&trans          &none  &none           &kp INSERT      &kp BSPC            &kp DELETE             &mkp MB4          &mkp MB5        &trans          &trans           &none  &trans
                                       &kp LGUI        &mo ADJUST          &trans                 &trans            &mkp LCLK       &mkp RCLK 
             >;
         };
